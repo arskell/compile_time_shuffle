@@ -1,12 +1,12 @@
 # compile_time_shuffle
 constexpr c++17 random shuffle for std::array 
 
-Otiginal array 
+Example array:
 ```C++
 {1,2,3,4,5,6,7,8}
 ```
 
-In the example we can see the product of the algorithm by using disassemble:
+We can see the product of the algorithm by using disassemble:
 ```asm
 	.long	7
 	.long	8
