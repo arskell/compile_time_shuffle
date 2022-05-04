@@ -33,8 +33,7 @@ constexpr std::array<T,N> shuffle(std::array<T, N> input_array){
     //simple bubble sort 
     bool swapped = false;
     size_t sw_n = N;
-    
-    #if 1
+
     do{
         swapped = false;
         for(size_t i = 0; i < (sw_n - 1); ++i){
@@ -56,7 +55,7 @@ constexpr std::array<T,N> shuffle(std::array<T, N> input_array){
         }
         sw_n -=1;
     }while(swapped);
-    #endif
+
     return output_array;
 }
 
